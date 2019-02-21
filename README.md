@@ -5,7 +5,9 @@ This Dockerfile allows to build Qt applications inside a container container. It
 `wget https://raw.githubusercontent.com/bbernhard/qt-android-docker/master/Dockerfile`
 
 * Change to the directory where the Dockerfile resides and build the docker container with: 
-`docker build -t qt-android .`
+
+```docker build -t qt-android .```
+
   If no build arguments are specified, a docker container with Qt 5.12.0, Android NDK r17c and android-19 will be created. 
 
   In case you want to create a docker image with different versions, change the following line accordingly: 
