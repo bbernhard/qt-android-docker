@@ -12,9 +12,9 @@ This Dockerfile allows to build Qt applications inside a container container. It
 
   In case you want to create a docker image with different versions, change the following line accordingly: 
 
-```bash
-docker build -t qt-android --build-arg QT_VERSION="5.12.0" --build-arg NDK_VERSION="r17c" --build-arg SDK_INSTALL_PARAMS="platform-tool,build-tools-20.0.0,android-19" --build-arg QT_PACKAGES="qt,qt.qt5.5120,qt.qt5.5120.gcc_64,qt.qt5.5120.android_armv7" .
-```
+   ```bash
+    docker build -t qt-android --build-arg QT_VERSION="5.12.0" --build-arg NDK_VERSION="r17c" --build-arg SDK_INSTALL_PARAMS="platform-tool,build-tools-20.0.0,android-19" --build-arg QT_PACKAGES="qt,qt.qt5.5120,qt.qt5.5120.gcc_64,qt.qt5.5120.android_armv7" .
+    ```
 
 * Next, create a bash script on your host system, which will then be executed inside the docker container. 
   
