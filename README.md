@@ -1,4 +1,4 @@
-This Dockerfile allows to build Qt applications inside a container container. It uses the awesome [qtci](https://github.com/benlau/qtci) scripts from @benlau for installing Qt, the android SDK + NDK. 
+This Dockerfile allows to build Qt applications inside a container container. It uses the awesome [qtci](https://github.com/benlau/qtci) scripts from [@benlau](https://github.com/benlau) for installing Qt, the android SDK + NDK. 
 
 # Usage
 * Download the Dockerfile to your host system with 
