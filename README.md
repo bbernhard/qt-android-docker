@@ -15,6 +15,7 @@ docker build -t qt-android --build-arg QT_VERSION="5.12.0" --build-arg NDK_VERSI
 ```
 
 * Next, create a bash script on your host system, which will then be executed inside the docker container. 
+  
   e.q: The script to build [Imagemonkey - TheGame](https://github.com/bbernhard/imagemonkey-thegame) looks like this: 
 
 ```bash
